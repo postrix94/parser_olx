@@ -1,0 +1,21 @@
+{
+    "name": "parser/olx",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "fabpot/goutte": "^4.0",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/http-client": "^6.1",
+        "longman/telegram-bot": "^0.79.0",
+        "telegram-bot/api": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\controller\\":"app/controller",
+            "app\\bootstrap\\views\\":"app/bootstrap/views",
+            "app\\bootstrap\\middleware\\":"app/bootstrap/middleware",
+            "app\\model\\":"app/model",
+            "app\\db\\":"app/db",
+            "app\\services\\": "app/services"
+        }
+    }
+}

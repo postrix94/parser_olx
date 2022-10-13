@@ -1,0 +1,26 @@
+.loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+}
+.card-preview::before {
+    content:'';
+    display: block;
+    width: 26px;
+    height: 28px;
+    position: absolute;
+    top:6px;
+    right: 20px;
+    background-image: url('/public/img/icons/close_icon.svg');
+    background-color: gainsboro;
+    cursor: pointer;
+    
+}
+
